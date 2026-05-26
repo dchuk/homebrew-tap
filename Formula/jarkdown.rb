@@ -1,25 +1,25 @@
 class Jarkdown < Formula
   desc "Export Jira Cloud issues to Markdown with attachments"
   homepage "https://github.com/dchuk/jarkdown-rs"
-  version "1.6.0"
+  version "1.6.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/dchuk/jarkdown-rs/releases/download/v1.6.0/jarkdown-aarch64-apple-darwin.tar.xz"
-      sha256 "b3359adab4f34b3e48bc59f78dd87d78af486bb92aaa9f542caa05fb69fb08c5"
+      url "https://github.com/dchuk/jarkdown-rs/releases/download/v1.6.1/jarkdown-aarch64-apple-darwin.tar.xz"
+      sha256 "7027545531a29c9f6f4d1401662ff165889663f6b6018c2bb0784b9fbf544103"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dchuk/jarkdown-rs/releases/download/v1.6.0/jarkdown-x86_64-apple-darwin.tar.xz"
-      sha256 "850eaad50bc5e8f68f50eae19dc9999c232638d9b31d3bc01e4dbb003567b486"
+      url "https://github.com/dchuk/jarkdown-rs/releases/download/v1.6.1/jarkdown-x86_64-apple-darwin.tar.xz"
+      sha256 "6e5fd75d7c0e1de9e43fb7876d9adb2db7e998a4c0bc8f73c8da054ad4ed1679"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/dchuk/jarkdown-rs/releases/download/v1.6.0/jarkdown-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "2bccc2dd717e04c370e9f9e6cc55a296a1ad3d04befa954c25c4c755bc423219"
+      url "https://github.com/dchuk/jarkdown-rs/releases/download/v1.6.1/jarkdown-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a4143aa19f406957045019599cda68b22fa9ba3b1643f9ab9828fda4b5e3abf0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dchuk/jarkdown-rs/releases/download/v1.6.0/jarkdown-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e20e669e5e60466babaedee7aad9240208cf4e6109de73f8a5bc4daf2e871298"
+      url "https://github.com/dchuk/jarkdown-rs/releases/download/v1.6.1/jarkdown-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "fb4a1cdc2cf111ba5cbd21c7c6bc9bf1e270963b0da9648c90b78bde1e3b9b63"
     end
   end
   license "MIT"
